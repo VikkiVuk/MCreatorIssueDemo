@@ -1,0 +1,118 @@
+{
+  "mod_elements": [
+    {
+      "name": "TestGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/demoworkspace/procedures/TestGUIWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ButtonPress",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button_press",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/demoworkspace/procedures/ButtonPressProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "TestGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/demoworkspace/client/gui/TestGUIScreen.java",
+          "src/main/java/net/mcreator/demoworkspace/network/TestGUIButtonMessage.java",
+          "src/main/java/net/mcreator/demoworkspace/world/inventory/TestGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenGUI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/demoworkspace/procedures/OpenGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/demoworkspace/command/TestCommand.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "gui.demoworkspace.test_gui.button_test_crash": "Test Crash"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "demoworkspace",
+    "modName": "DemoWorkspace",
+    "version": "1.0.0",
+    "author": "Vikto, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.4",
+    "modElementsPackage": "net.mcreator.demoworkspace"
+  },
+  "mcreatorVersion": 202400118518
+}
